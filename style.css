@@ -1,0 +1,161 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+     
+}
+.logo{
+    color:#ff00ff;
+    font-family: Harrington;
+    font-size: 2rem;
+}
+.nav-color{
+    background: ffff;
+}
+.dropdown{
+    color:blue;
+}
+#Home{
+    color: #ff00ff;;
+}
+.menu{
+    background: linear-gradient(to right,pink,rgb(184, 253, 244),rgb(182, 255, 141));
+}
+.section{
+    color: #ff00ff;;   
+}
+.placehlder{
+    color:azure;
+}
+.Toggle{
+    color: rgb(255, 255, 255);
+}
+.A {
+    position: relative;
+    max-width: 250px; /* Maximum width */
+    margin: 0 auto; /* Center it */
+  }
+  
+div.polaroid{
+    width:250px;
+    justify-content: space-around;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.text-A{
+    color: #ff00ff;;
+    font-weight: 700;
+    font-family: Harrington;
+}
+.container{
+    
+    max-width:1350px;
+    width:100%;
+    padding:20px;
+    margin: 50px auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+   
+}
+#active{
+    background-color:#ff00ff;
+}
+.filter_buttons{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    
+}
+.buntun{
+    padding:10px 20px;
+    font-size:18px;
+    background: #ffff;
+    border:none;
+    border-radius: 6px;;
+    box-shadow: 0 0 10px rgba(0, 0, 0.01, 0.25);
+}
+
+.tittle{
+    margin-bottom: 2px;
+  }
+ 
+div.container {
+    margin-top: 2px;
+
+}
+.sign {
+   
+    background-color: 	#ff00ff;
+   border-color: #ff00ff;
+  }
+.footer{
+    background-color: #ff00ff
+    
+}
+.text-B{
+    color: #ffff;
+    margin-left: 3rem;
+    font-weight: 800;
+}
+.card.hide{
+    display: none;
+}
+.para{
+    padding:4px;
+    color: #ffff;
+    font-weight: 200;
+}
+.subject{
+color:#ffff;
+margin-left: 3rem;
+margin-top: 1rem;
+
+padding:2rem;
+}
+.sub{
+    margin-left: 3rem;
+    color:#ffff;
+    font-weight: 500;
+}
+.line{
+   
+    border-bottom: 5px solid rgb(255, 255, 255);
+    width: 300px;
+    margin: auto;
+   
+}
+.fit-content{
+    height: 200px;
+    width:300px;
+    margin-left: 2px;
+}
+
+@media only screen and (max-width: 600px) {
+    div.polaroid{
+        width: 100%;
+        margin-left: auto;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-right: auto;
+        display: block;
+    }
+}
+@media only screen and (max-width: 600px)
+{
+    .subject{
+        color:#ffff;
+        margin-left:auto;
+        margin-top: auto;
+        display: block;
+    }
+       .sub{
+        margin-left:auto;
+        margin-top: auto;
+        display: block;
+   
+        color:#ffff;
+        font-weight: 500;
+       }    
+}
+
